@@ -1,0 +1,112 @@
+.k-t-w{
+color:#ffffff;
+}
+.k-t-r{
+color:#ff0000;
+}
+.k-t-b{
+color:rgba(255, 255, 255, 0);
+}
+.k-bg-color{
+	background-color:#000000;
+}
+.k-t-s1{
+	font-size:75px;
+}
+.k-t-s2{
+	font-size:33px;
+}
+.k-t-s3{
+	font-size:50px;
+}
+.k-t-s4{
+	font-size:33px;
+}
+.k-t-s5{
+	font-size:60px;
+}
+.k-t-s6{
+	font-size:20px;
+}
+.k-t-s7{
+	font-size:32px;
+}
+.k-t-a{
+	text-align: center;
+}
+h2.intro-header {
+  font-family: "montserrat-regular", sans-serif;
+  font-size: 5.4rem;
+  line-height: 0.324;
+  color: #ff0000;
+  position: relative;
+  padding-bottom: 5.6rem;
+}
+h2.header12 {
+  font-family: "montserrat-regular", sans-serif;
+  font-size: 5.4rem;
+  line-height: 0.324;
+  color: #ff0000;
+  position: relative;
+  padding-bottom: 5.6rem;
+}
+
+/*================== for parallax of secondary image ================*/
+
+#about {                    /* important for back image*/
+  width: 100%;
+  height: -40px;
+  min-height: 786px;
+  background-color: transparent;
+  position: relative;
+  display: table;
+}
+
+@media only screen and (max-width: 900px) {
+  #about {
+    height: auto;
+    min-height: 840px;
+  }
+
+  #about,
+  .home-content {
+    display: block;
+    text-align: center;
+  }
+
+  .home-content-left {
+    width: 94%;
+    position: static;
+    padding: 15rem 6rem 366px;
+    margin: 0 auto;
+  }
+  .home-content-left h1 {
+    margin-bottom: 3.6rem;
+  }
+  .home-image-right {
+    width: 400px;
+    right: auto;
+    top: auto;
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 0;
+    margin-bottom: -378px;
+  }
+
+@media only screen and (max-width: 768px) {
+  #about {
+    min-height: auto;
+  }
+  .home-content-left h3 {
+    font-size: 1.4rem;
+  }
+  .home-content-left h1 {
+    font-size: 3.6rem;
+  }
+}
+
+
+/* ==================================================================*/
